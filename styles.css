@@ -1,19 +1,17 @@
-
-/* Your CSS Code here. */
  .holder {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
   }
   
   .item {
-    flex: 1;
+    flex-grow: 1;
+    margin: 0 5px; /* Adjust as needed */
   }
 
   /* Just for visualization */
   .holder {
-    /* border: 2px solid black; */
+    border: 2px solid black;
     padding: 10px;
     width: 80%; /* Adjust as needed */
     margin: 0 auto;
