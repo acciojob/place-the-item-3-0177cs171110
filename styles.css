@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+ .holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .item {
+    flex: 1;
+  }
+
+  /* Just for visualization */
+  .holder {
+    /* border: 2px solid black; */
+    padding: 10px;
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  .item {
+    background-color: lightblue;
+    border: 1px solid blue;
+    padding: 10px;
+  }
